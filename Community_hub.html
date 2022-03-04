@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c630a0de2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <title>Community_Hub</title>
+  </head>
+  <body>
+    <!--Nav start-->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-dark px-4" style="background-color: black;">
+      <div class="container">
+        <a class="navbar-brand fs-2" href="home.html"><img src="images/CredXlogo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 text-start">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white  btn-outline-info" href="#" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                Use Credx
+              </a>
+              <ul class="dropdown-menu text-primary bg-secondary" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="credx_wallet.html">CredX Wallets</a></li>
+                <li><a class="dropdown-item" href="Get_CDX.html">Get CDX</a></li>
+                <li><a class="dropdown-item" href="Refund_failed_transaction.html">Refund Failed Transaction</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white btn-outline-secondary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Learn
+              </a>
+              <ul class="dropdown-menu text-primary bg-secondary" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="What_is_credx.html">What is CredX?</a></li>
+                <li><a class="dropdown-item" href="what_is_cdx.html">What is CDX</a></li>
+                <li><a class="dropdown-item" href="Defi.html">Decentralized Finance(DeFi)</a></li>
+                <li><a class="dropdown-item" href="smart_contract.html">Smart Contracts</a></li>
+                <li><a class="dropdown-item" href="history_of_credx.html">History of Credx</a></li>
+                <li><a class="dropdown-item" href="images/Credx_HongKong.pdf">WhitePaper</a></li>
+                <li><a class="dropdown-item" href="Credx_upgrades.html">CredX Upgrades</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white btn-outline-secondary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Developers
+              </a>
+              <ul class="dropdown-menu text-primary bg-secondary" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Developer_name.html">Developer'S Name</a></li>
+                <li><a class="dropdown-item" href="Documentation.html">Documentation</a></li>
+                <li><a class="dropdown-item" href="tutorial.html">Tutorials</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white btn-outline-secondary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Enterprise
+              </a>
+              <ul class="dropdown-menu text-primary bg-secondary" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="mainnet_credx.html">Mainnet CredX</a></li>
+                <li><a class="dropdown-item" href="private_credx.html">Private CredX</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white btn-outline-secondary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Community
+              </a>
+              <ul class="dropdown-menu text-primary bg-secondary" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="Community_hub.html">Community Hub</a></li>
+                <li><a class="dropdown-item" href="CredX_support.html">CredX Spport</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="d-flex text-white">
+            <i class="fas fa-moon" onclick="myFunction()"><br>
+                <script>
+                    function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                    }
+                </script>
+            </i>
+          </ul>
+          <ul class="d-flex" id="google_translate_element">
+              <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                  <script>
+                          function googleTranslateElementInit() {
+                              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+                          }
+                  </script>
+              </script>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--nav end-->
+    <!--welcom community start-->
+    <section class="section-1">
+      <div class="container text-center">
+          <div class="row">
+              <div class="col-md-6 col-sm-12">
+                  <div class="get">
+                      <img src="images/getstarted.svg">
+                  </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                  <div class="text text-center" style="padding-top: 30px;">
+                      <h4 class="text-muted" style="font-size: 30px; text-align: center;">JOIN THE COMMUNITY.</h4>
+                      <h1 style="font-weight: bold; font-size: 50px;">Welcome to the <span class="text-primary">CREDX community hub</span></h1>
+                      <p style="font-weight: 100;">The CredX community is home to hundreds of thousands of developers, technologists, designers, users, HODLers and enthusiasts.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--Welcome community end-->
+  <!--footer start-->
+  <div class="container p-0">
+    <div class="row text-left">
+        <div class="col-md-4">
+            <h1 class="text-dark" style="font-size: 20px; font-weight: bold;">CredX24.com</h1>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/join.png"> Join CredX Community.</p>
+            <p class="text-muted">@Copyright 2022 CredX BlockChain</p>
+        </div>
+        <div class="col-md-4">
+            <h1 class="text-dark" style="font-size: 20px; font-weight: bold;">Resources</h1>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/blockpapet.png"> Block paper</p>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/whitepaper.png"> WhitePaper</p>
+        </div>
+        <div class="col-md-4">
+            <h1 class="text-dark" style="font-size: 20px; font-weight: bold;">Where To contact?</h1>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/mail.png"> support@credx24.com</p>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/call.png"> Contact-No</p>
+        </div>
+    </div>
+</div>
+<section class="section-12">
+    <div class="container p-0">
+        <div class="row">
+                <div class="col-sm-2">
+                    <h1 class="text-dark" style="font-size: 20px; font-weight: bold;">Use CredX</h1>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="credx_wallet.html">CredX Wallets</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Get_CDX.html">Get CDX</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Refund_failed_transaction.html">Refund Failed Transaction</a></p>
+                </div>
+                <div class="col-sm-2">
+                    <h1 class="text-dark" style="font-size: 20px; font-weight: bold;">Learn</h1>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="What_is_credx.html">What is CredX?</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="what_is_cdx.html">What is CDX?</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Defi.html">Decentralized Finance(DeFi)</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="smart_contract.html">Smart Contracts</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="history_of_credx.html">History of Credx</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="images/Credx_HongKong.pdf">WhitePaper</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="CredX_support.html">CredX Upgrades</a></p>
+                </div>
+                <div class="col-sm-2">
+                    <h1 class="text-dark" style="font-size: 20px; font-weight: bold;">Developers</h1>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Developer_name.html">Developer'S Name</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Documentation.html">Documentation</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="tutorial.html">Tutorials</a></p>
+                </div>
+                <div class="col-sm-2">
+                    <h1 class="text-dark" style="font-size: 20px; font-weight: bold;">Enterprise</h1>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="mainnet_credx.html">Mainnet CredX</a></p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="private_credx.html">Private CredX</a></p>
+                </div>
+                <div class="col-sm-2">
+                    <h1 class="text-dark" style="font-size: 20px; font-weight: bold;">Community</h1> 
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Community_hub.html"></a>Community Hub</p>
+                    <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="CredX_support.html">CredX Spport</a></p>
+                </div>
+                <div class="col-sm-2">
+                    <h1 class="text-dark" style="font-size: 20px; font-weight: bold;">Follow Us</h1>
+                    <!--<p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="#"><img src="images/online/app-store.png" style="width: 20px;"></a>
+                            <a style="text-decoration: none; color: lightslategrey;" href="#"><img src="images/online/playstore.png" style="width: 20px;"></a></p>-->
+                            <div class="icons">
+                                <a href="#"><img src="images/online/facebook2.png" style="width: 25px;"></a>
+                                <a href="#"><img src="images/online/instagram2.png" style="width: 25px;"></a>
+                                <a href="#"><img src="images/online/twitter3.png" style="width: 25px;"></a>
+                                <a href="#"><img src="images/online/youtube3.png" style="width: 25px;"></a>
+                                <a href="#"><img src="images/online/linkdin2.png" style="width: 25px;"></a>
+                                <a href="#"><img src="images/online/telegram2.png" style="width: 25px;"></a>
+                            </div>
+                        </div>
+        </div>
+    </div>
+</section>
+<!--footer end-->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,
+section{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;    
+}
+/* Nav start */
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-size: 12px;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+    size: 50px;
+}
+.goog-logo-link {
+    display:none !important;
+} 
+.goog-te-gadget {
+    color: transparent !important;
+}
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+/* Nav end */
+/* header start */
+.header a{
+    font-size: 0.9rem;
+    color: goldenrod;
+}
+.header{
+    background-image: url('images/back4.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+.header .nav-item{
+    padding: 0.9em;
+}
+.header .nav-link:hover{
+    color: goldenrod;
+}
+.header .row .col-md-6{
+    padding: 4.2vmin 1vmin;
+}
+.header .container .col-md-6 h1{
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+.header .container .col-md-6 p{
+    padding: 1vmin 5vmin;
+}
+.header .container .col-md-6 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+/* header end */
+/* getstarted start */
+.section-1{
+    padding: 20vmin 0;
+    width: 100%;
+    min-height: 100vh;
+}
+.section-1 .row .col-md-6 .get img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .text{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    text-align: left;
+    padding: 15vmin 5vmin 30vmin 20vmin;
+}
+/* getstarted end */
+.section-3 .container{
+    margin-top: 8%;
+}
+.section-3 .container .inner{
+    overflow: hidden;
+}
+.section-3 .container .inner img{
+    transition: all 1.5s ease;
+}
+.section-3 .container .inner:hover img{
+    transform: scale(1.5);
+}
+.section-8 .container a .inner{
+    overflow: hidden;
+}
+.section-8 .container  a .inner img{
+    transition: all 1.5s ease;
+}
+.section-8 .container  a .inner:hover img{
+    transform: scale(1.5);
+}
+/* defi start */
+.section-4{
+    padding: 20vmin 0;
+    width: 100%;
+    min-height: 100vh;
+}
+.section-4 .row .col-md-6 .get img{
+    opacity: 0.8;
+    width: 60%;
+    border-radius: 0.2em;
+}
+.section-4 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-4 .row .col-md-6 .text{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    text-align: left;
+    padding: 15vmin 5vmin 30vmin 20vmin;
+}
+/* defi end */
+/* coin list start */
+.coinlist{
+    background-image: url('images/credx-banner-bg.png');
+    width: 100%;
+    min-height: 64vh;
+    background-size: cover;
+    position: relative;
+}
+.coinlist .content{
+    background-color: rgba(0,0,0,0.7);
+    min-height: 64vh;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.coinlist .content>h1{
+    font-size: 6vmin;
+    color: blueviolet;
+}
+.coinlist .content>p{
+    font-size: 2vmin;
+    color: white;
+}
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background-color: ghostwhite;
+    width: 10rem;
+    height: 8rem;
+    padding-top: 1.7vmin;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: 1px 2px 50px 0px black;
+    color: black;
+}
+.numbers{
+    margin-top: -15vmin;
+}
+.numbers .rect h1{
+    font-size: 2rem;
+    color: lightgray;
+    font-weight: bold;
+}
+.numbers .rect p{
+    font-size: 1rem;
+    color: black;
+}
+/* coin list end */
+.box>h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+}
+.box>p{
+    padding-bottom: 10vmin;
+}
+.box .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards div{
+    padding: 0;
+    margin: 0;
+}
+.cards .title{
+    background: lightblue;
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+.card card-text{
+    background-color: azure;
+}
+.section-9{
+    padding: 10vmin 4vmin;
+}
+.section-9 .card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+.section-9 .card .card-text{
+    padding: 0.5em;
+    padding-left: 1.5em;
+}
+.section-9 .carousel-item{
+    padding-right: 0px;
+}
+.border-radius{
+    border-radius: 340px;
+    width: 60%;
+}
+.section-11 .row .accordion-item{
+    background-color: transparent !important;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.section-7{
+    padding: 100px 0;
+}
+.section-7 h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.section-7 .text img{
+    width: 100px;
+    transition: 0.5s;
+    padding-right: 50px;
+}
+.section-7 .text a:hover img{
+    transform: translateY(-10px);
+}
+.section-8{
+    padding: 100px 0;
+}
+.section-8 h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+/*.section-8 .icons img{
+    width: 100px;
+    transition: 0.5s;
+    padding-right: 50px;
+}
+.section-8 .icons a:hover img{
+    transform: translateY(-10px);
+}*/
+.section-10 .row .col-md-6 .text h4:hover .badge{
+    transform: translateY(-10px);
+}
+.section-12 .row .col-sm-2 h1:hover a{
+    transform: translateY(-10px);
+}
